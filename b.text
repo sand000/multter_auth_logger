@@ -1,0 +1,9 @@
+Node.js compression middleware.
+
+The following compression codings are supported:
+
+deflate
+gzip
+Returns the compression middleware using the given options. The middleware will attempt to 
+compress response bodies for all request that traverse through the middleware,
+based on the given options.
